@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Welcome to Angular day2</h1>
+   <app-actorlists></app-actorlists>
+ <!--< <app-message></app-message> -->
+  <!-- <app-observabledemo></app-observabledemo> -->
+  <!-- <app-blog></app-blog> -->
+    <!-- <app-weatherdemo></app-weatherdemo> -->
+    <!-- <app-parent></app-parent> -->
+    <!-- <app-pipedemo></app-pipedemo> -->
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/actors"routerLinkActive="active">Actor List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/posts"routerLinkActive="active">Blog Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="/weather"routerLinkActive="active">Temp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " routerLink="/abcd"routerLinkActive="active">Not Found</a>
+          </li>
+      </ul>
+      <router-outlet></router-outlet>
+</div>
